@@ -1,0 +1,40 @@
+O Banco de dados deve armazenar as seguintes informações
+
+transaction
+titular_id
+3rdpart_id
+conta_id
+
+- valor da transação
+- categoria da transação 
+- subcategoria da transação
+- descrição da transação
+- tipo transação (dinheiro/crédito/débito/pix)
+- entrada saída
+- data/hora transação
+- fixo/variável
+- 3rd part id
+- 3rd part nome
+- 3rd part descrição
+- 3rd part categoria
+- conta id
+- conta saldo
+- conta tipo
+- conta registration date
+- conta descrição
+- conta titular
+
+TITULAR
+- titular nome
+- titular id
+- titular documento
+- titular tipo pessoa
+- titular data nascimento
+
+as possíveis tabelas nesse caso são
+
+Transação
+Titular
+Conta
+Categoria
+3rd Part
